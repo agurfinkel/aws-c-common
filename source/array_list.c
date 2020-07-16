@@ -65,6 +65,9 @@ int aws_array_list_calc_necessary_size_harness(void) {
 }
 
 
+
+
+int aws_array_list_copy_harness(void);
 int main() {
     printf("Started.\n");
     aws_array_list_copy_harness();
